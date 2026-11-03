@@ -5,8 +5,8 @@
 
 [![Format](https://img.shields.io/badge/Format-QLC%2B%20.qxf-blue?style=flat-square)](https://www.qlcplus.org)
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
-[![Compatibility](https://img.shields.io/badge/Compatibility-QLC%2B%20v4%20%7C%20v5%203D%20%7C%20ZZLUXORA%20v10-orange?style=flat-square)](https://gitlab.com/zzdevxx/zzluxora_v10)
-[![Research](https://img.shields.io/badge/Research-Skripsi%20FT%20UNNES-red?style=flat-square)](https://gitlab.com/zzdevxx/script)
+[![Compatibility](https://img.shields.io/badge/Compatibility-QLC%2B%20v4%20%7C%20v5%203D%20%7C%20ZZLUXORA%20v10-orange?style=flat-square)](https://gitlab.com/zzdevxx/zzluxora-v10)
+[![Research](https://img.shields.io/badge/Research-Skripsi%20FT%20UNNES-red?style=flat-square)](https://gitlab.com/zzdevxx/zzluxora-thesis)
 
 ---
 
