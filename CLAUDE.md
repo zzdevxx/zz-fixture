@@ -7,7 +7,7 @@ Dokumen ini adalah **single source of truth operasional** untuk Claude Code, AI 
 ## 📌 1. Identitas & Ruang Lingkup Proyek
 
 - **Nama Proyek:** **zz-fixture** (Stage Lighting Fixture Definitions)
-- **Repositori:** `https://github.com/zzdree/zz-fixture.git` (Public Repository)
+- **Repositori:** `https://github.com/zzdevxx/zz-fixture.git` (Public Repository)
 - **Peneliti / Pengembang:** Andreas Restuawanta Christwara (`NIM: 5312422036`)
 - **Institusi:** Program Studi S1 Teknik Komputer, Fakultas Teknik, Universitas Negeri Semarang (UNNES)
 - **Format Berkas Utama:** XML-based QLC+ Fixture Definition (`.qxf`, schema v4.14.3+)
