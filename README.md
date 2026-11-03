@@ -1,7 +1,7 @@
 # 💡 zz-fixture — Stage Lighting Fixture Definitions
 
 > **Koleksi Profil Definisi Fixture Lampu Panggung Resmi (.qxf) untuk QLC+ (Q Light Controller Plus) dan Konsol Pencahayaan ZZLUXORA v10.**  
-> Dirancang, diuji, dan dipelihara oleh **Andreas Restuawanta Christwara (`zzdree`)** untuk riset komputasi pencahayaan panggung dan tata ibadah Gereja Isa Almasih (GIA) Deliksari Semarang.
+> Dirancang, diuji, dan dipelihara oleh **Andreas Restuawanta Christwara (`zzdevxx`)** untuk riset komputasi pencahayaan panggung dan tata ibadah Gereja Isa Almasih (GIA) Deliksari Semarang.
 
 [![Format](https://img.shields.io/badge/Format-QLC%2B%20.qxf-blue?style=flat-square)](https://www.qlcplus.org)
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
