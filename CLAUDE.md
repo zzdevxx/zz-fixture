@@ -139,7 +139,7 @@ Seluruh spesifikasi di bawah ini diambil langsung dari tag XML `<Manufacturer>`,
    - `Illumsolid-YSP01` adalah **8CH RGBW** dengan `WHT` di Offset 4, `Program` di Offset 5, dan tanpa `Strobe`/`Speed`.
    - `Kumastb-STL47` adalah **8CH RGBW** dengan `WHT` di Offset 4, `STR` di Offset 5, `Program` di Offset 6, `Speed` di Offset 7.
    - `Wisdom-54X3` adalah **8CH RGB** dengan `STR`/`Effect`/`Speed` di Offset 1-3 dan `RED`/`GRN`/`BLU` bergeser ke Offset 4-6.
-2. **Kode Singkatan Kanal Tab Address ZZLUXORA v10:**
+2. **Kode Singkatan Kanal Tab Address ZZLUXORA:**
    - `DIM` = Master Dimmer (Amber/Yellow)
    - `RED` = Red Intensity (Pure Red)
    - `GRN` = Green Intensity (Pure Green)
@@ -147,7 +147,7 @@ Seluruh spesifikasi di bawah ini diambil langsung dari tag XML `<Manufacturer>`,
    - `WHT` = White Intensity (Pure White; hanya aktif pada `Illumsolid-YSP01` dan `Kumastb-STL47`)
    - `STR` = Strobe / Shutter (Cyan/Purple; aktif pada `Kumastb-STL47` dan `Wisdom-54X3`)
 3. **Pengujian Loopback / SITL QLC+:**
-   - Gunakan template workspace di `D:\ANDREAS\PERSONAL\zzluxora-v10\fixtures\qlcplus_template.qxw` (atau proyek `.qxw` uji lokal).
+   - Gunakan template workspace di `D:\ANDREAS\PERSONAL\zzluxora\showfiles\qlcplus_template.qxw` (atau proyek `.qxw` uji lokal).
    - Arahkan output Art-Net ke `127.0.0.1:6454` (Universe 0/1) dengan mode Passthrough aktif di QLC+.
 4. **Standar Ekstensi Berkas:**
    - Profil QLC+: `.qxf` (XML)

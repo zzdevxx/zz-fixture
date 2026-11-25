@@ -1,12 +1,23 @@
 # zz-fixture: Stage Lighting Fixture Definitions
 
-Koleksi profil definisi fixture lampu panggung (`.qxf`) untuk QLC+ (Q Light Controller Plus v4.14.4+) dan konsol pencahayaan ZZLUXORA v10.
+Koleksi profil definisi fixture lampu panggung (`.qxf`) untuk QLC+ (Q Light Controller Plus v4.14.4+) dan konsol pencahayaan [ZZLUXORA](https://zzdree.my.id/zzluxora/).
 Dirancang, diuji, dan dipelihara oleh Andreas Restuawanta Christwara (`zzdevxx`) untuk riset pencahayaan panggung dan tata ibadah Gereja Isa Almasih (GIA) Deliksari Semarang.
 
 [![Format](https://img.shields.io/badge/Format-QLC%2B%20.qxf-blue?style=flat-square)](https://www.qlcplus.org)
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
-[![Compatibility](https://img.shields.io/badge/Compatibility-QLC%2B%20v4.14.4%20%7C%20v5%20%7C%20ZZLUXORA%20v10-orange?style=flat-square)](https://gitlab.com/zzdevxx/zzluxora-v10)
-[![Research](https://img.shields.io/badge/Research-Skripsi%20FT%20UNNES-red?style=flat-square)](https://gitlab.com/zzdevxx/zzluxora-thesis)
+[![Compatibility](https://img.shields.io/badge/Compatibility-QLC%2B%20v4.14.4%20%7C%20v5%20%7C%20ZZLUXORA-orange?style=flat-square)](https://github.com/zzdevxx/zzluxora)
+[![Research](https://img.shields.io/badge/Research-Skripsi%20FT%20UNNES-red?style=flat-square)](https://github.com/zzdevxx/zzluxora-thesis)
+
+---
+
+## Ekosistem Terhubung ZZLUXORA
+
+| Komponen | Repositori | Hubungan Teknis |
+|---|---|---|
+| **Profil Fixture** | [**`zzdevxx/zz-fixture`**](https://github.com/zzdevxx/zz-fixture) *(Repo Ini)* | Master `.qxf` untuk 5 lampu panggung (4 unit rig aktif `zzdree 36X` + 4 profil katalog). |
+| **Software Konsol** | [**`zzdevxx/zzluxora`**](https://github.com/zzdevxx/zzluxora) | Mengonversi `.qxf` ke `.zfx` di `fixtures/` serta memverifikasi paritas kanal lewat unit test & `verify_ecosystem.py`. Portal unduhan: [zzdree.my.id/zzluxora](https://zzdree.my.id/zzluxora/). |
+| **Hardware Node** | [**`zzdevxx/esp32-artnet-dmx`**](https://github.com/zzdevxx/esp32-artnet-dmx) | Receiver WiFi Art-Net 4 ke RS-485 DMX512 (v5.2.0) yang menggerakkan lampu fisik. |
+| **Naskah & Riset** | [**`zzdevxx/zzluxora-thesis`**](https://github.com/zzdevxx/zzluxora-thesis) | Naskah skripsi FT UNNES, model V-A ke HSV-RGBW, dan uji panggung GIA Deliksari. |
 
 ---
 
@@ -174,10 +185,10 @@ cp Alien-AL36.qxf Illumsolid-YSP01.qxf Kumastb-STL47.qxf Wisdom-54X3.qxf zzdree-
    - `Wisdom` -> `54X3` (8CH RGB, 162 W).
 4. Tentukan Universe (Universe 0 atau 1) dan alamat DMX awal.
 
-### 3. Integrasi ke ZZLUXORA v10
+### 3. Integrasi ke ZZLUXORA
 
-- Profil `.qxf` kompatibel dengan parser `core/project_io.py` dan editor `ui/panels/fixture_editor.py` pada konsol ZZLUXORA v10.
-- Berkas `.qxf` dapat dikonversi ke format JSON `.zfx` untuk patching kanal DMX pada konsol.
+- Profil `.qxf` kompatibel dengan parser `core/project_io.py` dan editor `ui/panels/fixture_editor.py` pada konsol [ZZLUXORA](https://zzdree.my.id/zzluxora/).
+- Berkas `.qxf` dikonversi ke format JSON `.zfx` di `zzluxora/fixtures/` untuk patching kanal DMX pada konsol.
 
 ---
 
